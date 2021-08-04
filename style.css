@@ -1,0 +1,101 @@
+body {
+  background-color: #FAAF3622;
+  color: #FFFAFA;
+  font-family: 'Georama', sans-serif;
+  font-weight: 200;
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.card {
+  background-color: #5C14A1;
+  padding: 32px;
+  margin: 16px;
+  border-radius: 8px;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+
+#festa {
+  color: #FAAF36;
+}
+
+.btn {
+  background: linear-gradient(to left, #FAAF36 0%, #F5920D 100%);
+  color: #FFFAFA;
+  padding: 8px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.btn:hover {
+  background: #FFFAFA;
+  color: #5C14A1;
+  text-decoration: none;
+}
+
+.img_circle {
+  width: 150px;
+  border-radius: 50%;
+}
+
+#bio {
+  margin: 24px auto;
+  max-width: 400px;
+  text-align: justify;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 24px;
+}
+
+ul > li {
+  display: inline;
+  font-size: 32px;
+  padding: 0 8px;
+}
+
+.social {
+  text-decoration: none;
+  color: #FFFAFA;
+}
+
+.social:hover {
+  text-decoration: none;
+  color: #FAAF36;
+}
+
+/* Responsivity */
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 600px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 450px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
